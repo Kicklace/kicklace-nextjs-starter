@@ -1,0 +1,15 @@
+node_modules
+.next
+out
+build
+next-env.d.ts
+*.tsbuildinfo
+
+# Your keys live here and never in the repository. .env.example is the list of
+# names, with no values in it.
+.env
+.env.local
+.env*.local
+
+.vercel
+.DS_Store
