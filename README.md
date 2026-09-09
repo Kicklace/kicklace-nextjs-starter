@@ -6,7 +6,7 @@ This is a Next.js app with it already wired in: the tag on the site, and the
 handler and a Stripe webhook. Deploy it, paste two keys, and every visit,
 sign-up and payment lands on one record per person.
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Ffallguy04%2Fkicklace-nextjs-starter&project-name=kicklace-starter&repository-name=kicklace-starter&env=KICKLACE_SECRET_KEY,NEXT_PUBLIC_KICKLACE_KEY,KICKLACE_URL,NEXT_PUBLIC_KICKLACE_URL&envDefaults=%7B%22KICKLACE_URL%22%3A%22https%3A%2F%2Fwww.kicklace.com%22%2C%22NEXT_PUBLIC_KICKLACE_URL%22%3A%22https%3A%2F%2Fwww.kicklace.com%22%7D&envDescription=Your%20Kicklace%20keys%2C%20from%20Settings%20%E2%86%92%20Your%20website%20%E2%86%92%20For%20your%20developers%3A%20the%20public%20key%20for%20the%20tag%2C%20and%20a%20secret%20key%20for%20your%20server.&envLink=https%3A%2F%2Fgithub.com%2Ffallguy04%2Fkicklace-nextjs-starter%23environment-variables)
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2FKicklace%2Fkicklace-nextjs-starter&project-name=kicklace-starter&repository-name=kicklace-starter&env=KICKLACE_SECRET_KEY,NEXT_PUBLIC_KICKLACE_KEY,KICKLACE_URL,NEXT_PUBLIC_KICKLACE_URL&envDefaults=%7B%22KICKLACE_URL%22%3A%22https%3A%2F%2Fwww.kicklace.com%22%2C%22NEXT_PUBLIC_KICKLACE_URL%22%3A%22https%3A%2F%2Fwww.kicklace.com%22%7D&envDescription=Your%20Kicklace%20keys%2C%20from%20Settings%20%E2%86%92%20Your%20website%20%E2%86%92%20For%20your%20developers%3A%20the%20public%20key%20for%20the%20tag%2C%20and%20a%20secret%20key%20for%20your%20server.&envLink=https%3A%2F%2Fgithub.com%2FKicklace%2Fkicklace-nextjs-starter%23environment-variables)
 
 The button clones this repository into your own GitHub account, makes a Vercel
 project from it, and asks for the four environment variables below.
@@ -29,7 +29,7 @@ in Vercel later if you use the Stripe route below.
 ## Running it yourself
 
 ```bash
-git clone https://github.com/fallguy04/kicklace-nextjs-starter
+git clone https://github.com/Kicklace/kicklace-nextjs-starter
 cd kicklace-nextjs-starter
 npm install
 cp .env.example .env.local     # then fill in the two keys
