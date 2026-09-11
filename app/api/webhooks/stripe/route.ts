@@ -3,7 +3,7 @@
 // ---------------------------------------------------------------------------
 // You may not need this file at all.
 //
-// Kicklace takes Stripe's webhook itself: Settings → Integrations → Payments
+// Kicklace takes Stripe's webhook itself: Connections → Payments
 // from Stripe gives you an address to paste into your Stripe dashboard, and
 // from then on a paid invoice is a purchase with its amount on the person's
 // timeline and the lifecycle moves them to Purchaser — with no code, no

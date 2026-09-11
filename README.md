@@ -6,7 +6,7 @@ This is a Next.js app with it already wired in: the tag on the site, and the
 handler and a Stripe webhook. Deploy it, paste two keys, and every visit,
 sign-up and payment lands on one record per person.
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2FKicklace%2Fkicklace-nextjs-starter&project-name=kicklace-starter&repository-name=kicklace-starter&env=KICKLACE_SECRET_KEY,NEXT_PUBLIC_KICKLACE_KEY,KICKLACE_URL,NEXT_PUBLIC_KICKLACE_URL&envDefaults=%7B%22KICKLACE_URL%22%3A%22https%3A%2F%2Fwww.kicklace.com%22%2C%22NEXT_PUBLIC_KICKLACE_URL%22%3A%22https%3A%2F%2Fwww.kicklace.com%22%7D&envDescription=Your%20Kicklace%20keys%2C%20from%20Settings%20%E2%86%92%20Your%20website%20%E2%86%92%20For%20your%20developers%3A%20the%20public%20key%20for%20the%20tag%2C%20and%20a%20secret%20key%20for%20your%20server.&envLink=https%3A%2F%2Fgithub.com%2FKicklace%2Fkicklace-nextjs-starter%23environment-variables)
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2FKicklace%2Fkicklace-nextjs-starter&project-name=kicklace-starter&repository-name=kicklace-starter&env=KICKLACE_SECRET_KEY,NEXT_PUBLIC_KICKLACE_KEY,KICKLACE_URL,NEXT_PUBLIC_KICKLACE_URL&envDefaults=%7B%22KICKLACE_URL%22%3A%22https%3A%2F%2Fwww.kicklace.com%22%2C%22NEXT_PUBLIC_KICKLACE_URL%22%3A%22https%3A%2F%2Fwww.kicklace.com%22%7D&envDescription=Your%20Kicklace%20keys%2C%20from%20Connections%20%E2%86%92%20Your%20website%20%E2%86%92%20For%20your%20developers%3A%20the%20public%20key%20for%20the%20tag%2C%20and%20a%20secret%20key%20for%20your%20server.&envLink=https%3A%2F%2Fgithub.com%2FKicklace%2Fkicklace-nextjs-starter%23environment-variables)
 
 The button clones this repository into your own GitHub account, makes a Vercel
 project from it, and asks for the four environment variables below.
@@ -20,7 +20,7 @@ project from it, and asks for the four environment variables below.
 | `KICKLACE_URL` | where Kicklace is, for your server. `https://www.kicklace.com` unless you run your own. |
 | `NEXT_PUBLIC_KICKLACE_URL` | where Kicklace is, for the tag. The same address. |
 
-Both keys are in Kicklace under **Settings → Your website → For your
+Both keys are in Kicklace under **Connections → Your website → For your
 developers**. The secret key is shown once.
 
 `STRIPE_WEBHOOK_SECRET` is optional and is not asked for at deploy time; add it
@@ -91,8 +91,8 @@ idempotency key is the invoice, else the payment intent, else the event id,
 which is what stops one payment landing three times when Stripe retries.
 
 **Kicklace can take Stripe's webhook itself**, with no code and no deployment:
-**Settings → Integrations → Payments from Stripe** gives you an address to
-paste into your Stripe dashboard, and a paid invoice becomes the same purchase
+**Connections → Stripe** gives you an address to paste
+into your Stripe dashboard, and a paid invoice becomes the same purchase
 with the same lifecycle move. Prefer that. Keep this route when the payment is
 not the whole story — when you want to look something up in your own database
 first, or post an event of your own beside it. **Run one of the two, never
