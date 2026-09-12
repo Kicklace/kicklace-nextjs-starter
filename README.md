@@ -61,6 +61,9 @@ keeps one random id in the browser's own storage — no cookies — and reads
 `NEXT_PUBLIC_KICKLACE_KEY` and `NEXT_PUBLIC_KICKLACE_URL` by itself. Given a
 secret key it renders nothing and says why in the console.
 
+On Vercel it also writes `<meta name="kicklace-release">` from the deployment's
+own sha, so every event says which deployment the page was.
+
 ### `app/api/signup/route.ts` — who they are, and what they agreed to
 
 ```ts
