@@ -1,6 +1,7 @@
 # Kicklace Next.js starter
 
-Kicklace is an AI-powered CRM and customer platform for micro SaaS companies.
+Kicklace is customer email for founders: it maps where your customers are,
+writes the emails they should get in your own voice, and sends them.
 This is a Next.js app with it already wired in: the tag on the site, and the
 [`kicklace`](https://www.npmjs.com/package/kicklace) package in a sign-up
 handler and a Stripe webhook. Deploy it, paste two keys, and every visit,
