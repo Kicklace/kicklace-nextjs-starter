@@ -14,4 +14,4 @@ export function kicklace(): Kicklace | null {
 }
 
 export const NO_KEY =
-  "KICKLACE_SECRET_KEY is not set, so nothing was sent to Kicklace. It is under Connections → Your website → For your developers.";
+  "KICKLACE_SECRET_KEY is not set, so nothing was sent to Kicklace. It is under Connections → Your website → Developers.";
