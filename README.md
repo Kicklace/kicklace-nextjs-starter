@@ -1,6 +1,6 @@
 # Kicklace Next.js starter
 
-Kicklace is customer follow-up for small businesses: it turns the interest your website earns into customers, following up with every lead in your own voice.
+Kicklace is lifecycle email for SaaS founders: it follows every customer from sign-up to paying and writes the emails along the way in your own voice.
 This is a Next.js app with it already wired in: the tag on the site, and the
 [`kicklace`](https://www.npmjs.com/package/kicklace) package in a sign-up
 handler and a Stripe webhook. Deploy it, paste two keys, and every visit,
